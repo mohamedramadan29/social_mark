@@ -1,0 +1,181 @@
+/*START NAVBAR*/
+/*
+main color :#2db7ff;
+second main: #2980b9;
+*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {
+  background-color: #ffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.class_nav {
+  padding: 0px;
+  box-shadow: 0px 0px 14px 2px #979999;
+  transition: all 0.3s ease-in-out;
+}
+.navbar img {
+
+  height: 60px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.navbar-light .navbar-brand {
+  color: rgb(41 128 185);
+  font-size: 22px;
+}
+.navbar-light .navbar-brand h6 {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*START INDEX PAGE*/
+.loginhere {
+  background-color: #fffcfccc;
+}
+.login form {
+  width: 600px;
+  margin: 100px auto;
+  background-color: #ffff;
+  box-shadow: 0px 0px 14px 2px #ddd;
+  padding: 20px;
+  border-radius: 20px;
+}
+.login form h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.login form label {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.login form input {
+  background-color: #fefdfd;
+  height: 45px;
+  box-shadow: none;
+  outline: none;
+}
+
+.login input[type="submit"] {
+  background: #007bff;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+/*END INDEX PAGE*/
+.dasha {
+  margin-top: 130px;
+  text-align: center;
+}
+.dasha .info {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0px 0px 14px 2px #979191;
+  margin-bottom: 30px;
+}
+
+.dasha .info i {
+  font-size: 35px;
+}
+
+.dasha .info h3 {
+  font-size: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.dasha .info h3 a {
+  color: #fff;
+  text-decoration: none;
+}
+.dasha .info span {
+  font-weight: bold;
+  font-size: 26px;
+}
+.dasha .info span a {
+  color: #fff;
+  text-decoration: none;
+}
+/*START SERV PAGE*/
+.car_page {
+  background-color: #f2efef;
+}
+.car_page .box {
+  width: 700px;
+  margin: auto;
+  box-shadow: 0px 0px 14px #ccc;
+  padding: 20px;
+  padding-top: 130px;
+}
+.car_page .box h2 {
+  color: #2980b9;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.car_page .box .inputbox {
+  margin-bottom: 20px;
+}
+.car_page .box .inputbox label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #5c5858;
+}
+.car_page .box .inputbox input {
+}
+.car_page .box .inputbox textarea {
+  height: 150px;
+}
+
+.car_page .box input[type="submit"] {
+  background: #2980b9;
+  color: #fff;
+  font-size: 19px;
+}
+.suc_message,
+.danger_message {
+  text-align: center;
+  font-size: 22px;
+
+  position: absolute;
+  top: 44px;
+  padding: 5px 10px;
+  left: 28%;
+  width: 600px;
+  margin-top: 100px;
+}
+
+/*END SERV PAGE*/
+.report {
+  background-color: #fff;
+  padding-top: 130px;
+  box-shadow: 0px 0px 14px 2px #ccc;
+}
+.table tr:nth-child(even) {
+  background-color: #ddd;
+}
+.report h2 {
+  color: #2980b9;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+img{
+  max-width: 160px;
+}
+
